@@ -1,0 +1,65 @@
+:root{
+    --bitcoin-orange: #F7931A;
+    --soft-orange: #FFE9D5;
+    --secondary-blue: #1A9AF7;
+    --soft-blue: #E7F5FF;
+    --warm-black: #201E1C;
+    --other-black: #282623;
+    --DM-Sans: 'DM Sans', sans-serif;
+    --Inter: 'Inter', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: var(--DM-Sans);
+}
+
+.header{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-width: 320px;
+    height: 334px; 
+    background-image: linear-gradient(207.8deg, var(--warm-black) 16.69%, var(--bitcoin-orange) 100%);
+}
+
+.header__contenedor-texto{
+    position: absolute;
+    top: 39.5%;
+    width: 90%;
+    text-align: center;
+}
+
+.header__titulo{
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: #fff;
+}
+
+.header__logo{
+    width: 52%;
+    position: absolute;
+    top: 24%;
+}
+
+.header__texto{
+    margin-top: 2.4rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: var(--soft-orange);
+}
+
+.header__enlace{
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
