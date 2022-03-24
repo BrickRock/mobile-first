@@ -60,6 +60,12 @@ html{
 
 .header__enlace{
     font-weight: 700;
+    position: absolute;
+    bottom: -1.9rem;
     font-size: 1.4rem;
+    color: var(--warm-black);
+    text-decoration: none;
+    background-color: #FAF8F7;
+    padding: 1.2rem 1.6rem;
 }
 
