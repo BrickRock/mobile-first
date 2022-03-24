@@ -28,7 +28,7 @@ html{
     align-items: center;
     width: 100%;
     min-width: 320px;
-    height: 334px; 
+    height: 33.4rem; 
     background-image: linear-gradient(207.8deg, var(--warm-black) 16.69%, var(--bitcoin-orange) 100%);
 }
 
