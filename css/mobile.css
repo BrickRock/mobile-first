@@ -69,3 +69,33 @@ html{
     padding: 1.2rem 1.6rem;
 }
 
+.Monedas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Monedas__contenedor-bitcoin{
+    margin-top: 5.9rem;
+}
+
+.Monedas__descripcion{
+    font-family: var(--DM-Sans);
+    font-weight: 700;
+    line-height: 2.6rem;
+    font-size: 2.4rem;
+    width: 90%;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.Monedas__descripcion-extensa{
+    margin-top: 2.4rem;
+    font-family: var(--DM-Sans);
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    width: 90%;
+    text-align: center;
+    color: #757575;
+}
