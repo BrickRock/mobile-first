@@ -69,6 +69,13 @@ html{
     padding: 1.2rem 1.6rem;
 }
 
+.header__icono-boton{
+    display: inline-block;
+    background-image: url('../assets/icons/keydown.svg');
+    height: 1.8rem;
+    width: 2.4rem;
+}
+
 .Monedas{
     display: flex;
     flex-direction: column;
@@ -98,4 +105,35 @@ html{
     width: 90%;
     text-align: center;
     color: #757575;
+}
+
+.tabla__icono-precio{
+    display: inline-block;
+    height: 1.2rem;
+    width: 1.2rem;
+}
+
+.tabla__icono-precio--bitcoin{
+    background-image: url(../assets/icons/Vector.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.tabla__icono-precio--ethereum{
+    background-image: url(../assets/icons/positivo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tabla__icono-precio--ripple{
+    background-image: url(../assets/icons/Vector.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tabla__icono-precio--stellar{
+    background-image: url(../assets/icons/Vector.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
