@@ -20,6 +20,10 @@ html{
     font-family: var(--DM-Sans);
 }
 
+section{
+    background-color: #E5E5E5;
+}
+
 .header{
     display: flex;
     position: relative;
@@ -140,13 +144,14 @@ html{
 
 td{
     font-family: var(--Inter);
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.4rem;
     line-height: 1.9rem;
     color: #B5B0AC;
     width: 29%;
     height: 3.9rem;
     background-color: #FFFFFF;
+    text-align: center;
 }
 
 .tabla__titulo{
@@ -159,8 +164,13 @@ td{
     margin-bottom: 1.2rem;
 }
 
+.tabla__titulo--comisiones{
+    color: #1A9AF7;
+}
+
 .tabla__celda-moneda{
     width: 31%;
+    font-weight: 500;
 }
 
 .tablas{
@@ -169,12 +179,27 @@ td{
 
 .tabla__actualizacion{
     margin-top: 1.6rem;
-    color: var(--warm-black);
     font-family: var(--Inter);
-    font-weight: 700;
+
     font-size: 1.2rem;
     background-color: var(--soft-orange);
     padding: 0.8rem;
     border-radius: 8px;
     text-align: center;
+}
+
+.tabla__celda-moneda--superior{
+    border-top-left-radius: 18px;
+}
+
+.tabla__celda-costo--superior{
+    border-top-right-radius: 18px;
+}
+
+.tabla__celda-moneda--inferior{
+    border-bottom-left-radius: 18px;
+}
+
+.tabla__celda-costo--inferior{
+    border-bottom-right-radius: 18px;
 }
