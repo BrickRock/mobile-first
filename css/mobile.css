@@ -114,26 +114,67 @@ html{
 }
 
 .tabla__icono-precio--bitcoin{
-    background-image: url(../assets/icons/Vector.svg);
+    background-image: url(../assets/icons/trending-down.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 
 .tabla__icono-precio--ethereum{
-    background-image: url(../assets/icons/positivo.svg);
+    background-image: url(../assets/icons/trending-up.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .tabla__icono-precio--ripple{
-    background-image: url(../assets/icons/Vector.svg);
+    background-image: url(../assets/icons/trending-down.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .tabla__icono-precio--stellar{
-    background-image: url(../assets/icons/Vector.svg);
+    background-image: url(../assets/icons/trending-down.svg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+td{
+    font-family: var(--Inter);
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    color: #B5B0AC;
+    width: 29%;
+    height: 3.9rem;
+    background-color: #FFFFFF;
+}
+
+.tabla__titulo{
+    font-family: var(--DM-Sans);
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: #FF9536;
+    margin-top: 4.8rem;
+    margin-bottom: 1.2rem;
+}
+
+.tabla__celda-moneda{
+    width: 31%;
+}
+
+.tablas{
+    width: 61.5%;
+}
+
+.tabla__actualizacion{
+    margin-top: 1.6rem;
+    color: var(--warm-black);
+    font-family: var(--Inter);
+    font-weight: 700;
+    font-size: 1.2rem;
+    background-color: var(--soft-orange);
+    padding: 0.8rem;
+    border-radius: 8px;
+    text-align: center;
 }
