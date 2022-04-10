@@ -84,6 +84,7 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 6.1rem;
 }
 
 .Monedas__contenedor-bitcoin{
@@ -202,4 +203,78 @@ td{
 
 .tabla__celda-costo--inferior{
     border-bottom-right-radius: 18px;
+}
+
+/* Seccion información*/
+
+.informacion{
+    background-color: var(--warm-black);
+    color: #FFFFFF;
+    font-family: var(--DM-Sans);
+    position: relative;
+    padding-top: 5.1rem;
+}
+
+.informacion__titulo{
+    margin-bottom: 3.2rem;
+}
+
+.informacion__encabezado-principal{
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    text-align: center;
+    margin-bottom: 2.4rem;
+}
+
+.informacion__descripcion-sencilla{
+    color: #808080;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    text-align: center;
+}
+
+.informacion__papa{
+    width: 13%;
+    position: absolute;
+    top: -1rem;
+    right: 45%;
+}
+
+/* Cajas */
+
+.caja{
+    background-color: #282623;
+    width: 28.8rem;
+    height: 15.2rem;
+    margin: auto;
+    margin-bottom: 1.6rem;
+    text-align: justify;
+}
+
+.caja__titulo{
+    width: 90%;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    margin: auto;
+}
+
+.caja__descripcion{
+    width: 90%;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    margin: auto;
+    margin-top: 1rem;
+    color: #808080;
+}
+
+.caja__logo{
+    width: 24px;
+    height: 24px;
+    margin-top: 1.4rem;
+    margin-left: 1.6rem;
+    margin-bottom: 1rem;
 }
