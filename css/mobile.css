@@ -213,6 +213,7 @@ td{
     font-family: var(--DM-Sans);
     position: relative;
     padding-top: 5.1rem;
+    padding-bottom: 4.2rem;
 }
 
 .informacion__titulo{
@@ -277,4 +278,95 @@ td{
     margin-top: 1.4rem;
     margin-left: 1.6rem;
     margin-bottom: 1rem;
+}
+
+.planes{
+    background-color: #E5E5E5;;
+}
+
+.planes__imagen-fondo{
+    height: 38.7rem;
+    background-image: url('../assets/imgs/bitcoinbaby 1.jpg');
+}
+
+.planes__titulo{
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 6.4rem;
+}
+
+.planes__informacion{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 6.4rem; 
+    text-align: center;
+}
+
+.planes__opciones{
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--warm-black);
+    margin-bottom: 2.4rem;
+}
+
+.planes__descripcion{
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #757575;
+    line-height: 1.8rem;
+}
+
+.precios{
+    width: 59%;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5rem;
+    position: relative;
+}
+
+.precios__titulos{
+    font-weight: 700;
+    font-family: var(--Inter);
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    background-color: var(--bitcoin-orange);
+    width: 53%;
+    padding: 8px 0;
+    text-align: center;
+    border-radius: 8px;
+    position: absolute;
+    top: -16px;
+}
+
+.precios__periodo{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #000000;
+    margin-top: 31px;
+}
+
+.precios__costos{
+    font-family: var(--Inter);
+    font-weight: 700;
+    font-size: 4.2rem;
+    color: #000000;
+    margin-top: 8px;
+}
+
+.precios__ahorro{
+    font-weight: 500;
+    font-family: var(--Inter);
+    font-size: 1.2rem;
+    color: #757575;
+    width: 83%;
+    margin-top: 16px;
 }
