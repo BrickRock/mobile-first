@@ -237,10 +237,10 @@ td{
 }
 
 .informacion__papa{
-    width: 13%;
+    width: 40px;
     position: absolute;
     top: -1rem;
-    right: 45%;
+    right: calc(50% - 20px);
 }
 
 /* Cajas */
@@ -285,8 +285,11 @@ td{
 }
 
 .planes__imagen-fondo{
-    height: 38.7rem;
-    background-image: url('../assets/imgs/bitcoinbaby 1.jpg');
+    height: 60vh;
+    background-image: url('../assets/imgs/bitcoinbaby.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .planes__titulo{
@@ -362,6 +365,10 @@ td{
     margin-top: 8px;
 }
 
+.precios__costos-sup{
+    font-size: 1.2rem;
+}
+
 .precios__ahorro{
     font-weight: 500;
     font-family: var(--Inter);
@@ -369,4 +376,29 @@ td{
     color: #757575;
     width: 83%;
     margin-top: 16px;
+}
+.boton{
+    display: flex;
+    margin-top: 16px;
+    align-items: center;
+    border: 3px solid var(--bitcoin-orange);
+    font-size: 1.4rem;
+    color: var(--warm-black);
+    width: 79.5%;
+    padding: 15px 10px;
+    justify-content: center;
+    margin-bottom: 24px;
+    border-radius: 4px;
+}
+.boton__logo{
+    display: inline-block;
+    background-image: url('../assets/icons/arrow-right.svg');
+    margin-left: 16px;
+    height: 20px;
+    width: 20px;
+}
+
+.planes{
+    padding-bottom: 50px;
+
 }
