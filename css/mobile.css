@@ -324,6 +324,7 @@ td{
 
 .precios{
     width: 59%;
+    max-width: 300px;
     color: #FFFFFF;
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
     border-radius: 8px;
