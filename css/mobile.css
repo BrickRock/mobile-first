@@ -112,6 +112,10 @@ section{
     color: #757575;
 }
 
+.tabla__tabla-xd{
+    margin: 0 auto;
+}
+
 .tabla__icono-precio{
     display: inline-block;
     height: 1.2rem;
@@ -332,9 +336,12 @@ td{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 20px;
     margin-top: 5rem;
     position: relative;
+    flex-shrink: 0;
+    scroll-snap-type: center;
+    
 }
 
 .precios__titulos{
@@ -402,4 +409,11 @@ td{
 .planes{
     padding-bottom: 50px;
 
+}
+
+.contenedor-tarjetas{
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior: contain;
+    scroll-snap-type: x proximity;
 }
