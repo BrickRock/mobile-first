@@ -417,3 +417,29 @@ td{
     overscroll-behavior-x: contain;
     scroll-snap-type: x mandatory;
 }
+footer{
+    height: 150px;
+    width: 100%;
+    background-color: var(--bitcoin-orange);
+    color: #FFFFFF;
+    display: flex;
+
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer section{
+    background-color: var(--bitcoin-orange);
+}
+
+.footer__redes-sociales li{
+    list-style: none;
+    margin-top: 8px;
+}
+.footer__redes-sociales a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+}
