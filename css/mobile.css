@@ -340,7 +340,7 @@ td{
     margin-top: 5rem;
     position: relative;
     flex-shrink: 0;
-    scroll-snap-type: center;
+    scroll-snap-align: center;
     
 }
 
@@ -414,6 +414,6 @@ td{
 .contenedor-tarjetas{
     display: flex;
     overflow-x: scroll;
-    overscroll-behavior: contain;
-    scroll-snap-type: x proximity;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
 }
