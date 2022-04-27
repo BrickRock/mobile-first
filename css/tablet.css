@@ -1,0 +1,18 @@
+.contenedor-caja{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 800px;
+    max-width: 850px;
+    margin: auto;
+}
+
+.caja{
+    flex-shrink: 0;
+}
+
+.contenedor-tarjetas{
+    margin: 0 auto;
+    max-width: 1020px;
+    overflow: visible;
+}

@@ -180,7 +180,15 @@ td{
     display: flex;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
-    scroll-behavior: contain;
+}
+
+@media (min-width: 650px) {
+    .tablas{
+        justify-content: center;
+    }
+    .tablas{
+        overflow-x: visible;
+    }
 }
 
 .tablas__tabla-uno, .tablas__tabla-dos{
@@ -256,6 +264,10 @@ td{
 }
 
 /* Cajas */
+
+.contenedor-caja{
+    background-color: var(--warm-black);
+}
 
 .caja{
     background-color: #282623;
